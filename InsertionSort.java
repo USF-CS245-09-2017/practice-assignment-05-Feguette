@@ -1,6 +1,14 @@
+/**
+ * Sorts an array in-place using the insertion sort algorithm.
+ *
+ * @author Jason Liang
+ * @vesion (27 February 2019)
+ */
 public class InsertionSort implements SortingAlgorithm {
+    /*
+     *
+     */
     public void sort(int[] a) {
-
         int temp, j;
         for (int i = 1; i < a.length; i++) {
             temp = a[i];

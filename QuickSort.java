@@ -1,5 +1,10 @@
 import java.util.Arrays;
-
+/**
+ * Sorts an array in-place using the quick sort algorithm.
+ *
+ * @author Jason Liang
+ * @vesion (27 February 2019)
+ */
 public class QuickSort implements SortingAlgorithm {
 
 
