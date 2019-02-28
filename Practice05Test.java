@@ -1,4 +1,4 @@
-
+//https://docs.google.com/spreadsheets/d/16iralWvuv0C9NcuCjgJfANyZgWb0o4yrJJamLI68feE/edit?usp=sharing
 
 import java.util.Random;
 
@@ -15,6 +15,7 @@ public class Practice05Test {
 	protected String populationStrategy;   // How should the array be populated? 
 	protected SortingFactory factory;      // This creates different sorting algorithms.
 	protected String [] algorithms = {"insertionsort", "mergesort", "quicksort"}; // Algos to use.
+	//protected String [] algorithms = {"mergesort", "quicksort"}; // Algos to use.
 
 	
 	/**
