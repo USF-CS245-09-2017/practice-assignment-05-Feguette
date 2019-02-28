@@ -2,4 +2,4 @@
 
 See assignment details on Canvas.
 
-Graph of data: https://docs.google.com/spreadsheets/d/16iralWvuv0C9NcuCjgJfANyZgWb0o4yrJJamLI68feE/edit?usp=sharing
+[Click here for graph of data.](https://docs.google.com/spreadsheets/d/16iralWvuv0C9NcuCjgJfANyZgWb0o4yrJJamLI68feE/edit?usp=sharing)
