@@ -14,8 +14,8 @@ public class Practice05Test {
 	protected int [] arr;                  // This is the array to be sorted.
 	protected String populationStrategy;   // How should the array be populated? 
 	protected SortingFactory factory;      // This creates different sorting algorithms.
-	protected String [] algorithms = {"insertionsort", "mergesort", "quicksort"}; // Algos to use.
-	//protected String [] algorithms = {"mergesort", "quicksort"}; // Algos to use.
+	//protected String [] algorithms = {"insertionsort", "mergesort", "quicksort"}; // Algos to use.
+	protected String [] algorithms = {"quicksort"}; // Algos to use.
 
 	
 	/**
@@ -200,7 +200,7 @@ public class Practice05Test {
 		
 		Practice05Test timing = new Practice05Test();
 		int [] sizes = {50000, 100000, 150000, 200000, 250000, 300000, 350000, 400000, 450000, 500000};
-		// int [] sizes = {5, 10};
+		//int [] sizes = {2,5, 10};
 		
 		for (int size : sizes) {
 			timing.changeArraySize(size);

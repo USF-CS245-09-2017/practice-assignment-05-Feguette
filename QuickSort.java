@@ -50,10 +50,13 @@ public class QuickSort implements SortingAlgorithm {
                 left++;
             while (right >= left && a[right] > a[lower])
                 right--;
-            if (left <= upper && left < right)
+            if (left < right)
                 swap(a, left, right);
         }
         swap(a, lower, right);
+
+        if (a[lower] > a[upper])
+            swap(a, lower, upper);
         return right;
 
     }
